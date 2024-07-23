@@ -1,0 +1,3 @@
+select user_id, sum (listen_duration) as Total_Listening_Time, count( distinct song_id) as Unique_Songs
+from listening_habits
+group by user_id;
