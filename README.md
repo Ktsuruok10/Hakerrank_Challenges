@@ -1,2 +1,2 @@
-# Hakerrank_Challenges
+# Coding Challenges
 Python and SQL Coding Challenges from Hakerrank
