@@ -1,0 +1,12 @@
+###Meta Coding Exercise to switch the input values from A to B and B to A. 
+
+def getWrongAnswers(N: int, C: str) -> str:
+  list = [char for char in C]
+  wrong_ans =[]
+  for l in list:
+    if l == "A":
+      wrong_ans.append("B"),
+    else: 
+      wrong_ans.append("A")
+    x = ''.join(wrong_ans)
+  return x
